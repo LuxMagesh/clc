@@ -1,0 +1,124 @@
+
+body{
+    /* background-image: url("./img/pexels-energepiccom-561458.jpg"); */
+    /* background-image: url("./img/pexels-nout-gons-378570.jpg"); */
+    background-image: url("./img/pexels-burst-374018.jpg");
+    /* background-image: url("./img/pexels-energepiccom-561458.jpg"); */
+    background-size: cover;
+}
+
+.nav {
+    background-color:#09a5cc ;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 93vh;
+}
+
+.inner{
+    width: 30vw;
+    height: 60vh;
+    background-color:#b2b2b2 ;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.title{
+    width:30vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    /* background-color:darkslategray; */
+    color: #ffff;
+}
+
+.title h3{
+    padding-left: 8%;
+    font-size: 2em;
+}
+
+.content{
+    border-bottom: 1px solid white;
+    height: 22vh;
+    /* background-color:#b2b2b2 ; */
+    opacity: 1.5;
+}
+
+.txt{
+    background-color: #fffefe;
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 25vw;
+    border-radius: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.txt1{
+    background-color: #fffefe;
+    margin-top: 1%;
+    margin-left: 8%;
+    width: 25vw;
+    border-radius: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.txt1 span{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.glyphicon{
+    color: #08b8af;
+    font-size: 18px;
+}
+
+.content input{
+    width: 22vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 0;
+}
+
+.content input[placeborder]{
+    font-size: 1.3em;
+    border-radius: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+
+.ckbox{
+    /* font-size: medium; */
+    margin-top: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 8%;
+    width: 25vw;
+
+}
+
+
+.btnsub{
+    font-size: medium;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgb(9, 231, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.btnsub input{
+    border-radius: 25px;
+    border: 2px;
+    border-color: rgb(6, 148, 148);
+    margin-right: 1%;
+    width: 12.5vw;
+
+}

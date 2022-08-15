@@ -1,0 +1,16 @@
+NB ! Main files ( reg.php, signup.php and dbcon.php
+
+Reg.php : Basic Submission Form Page ( Located in the root folder  )
+	Input Fields Validation Special and Non numerics in the names input
+	Submit Form
+	Cancel button to clear all the fields script
+
+Signup.php : Located in the root folder
+ 	Program Logic Script 
+ 	ID Number Validation (Character constraint)
+	Duplicate ID in the Database check
+	Date of Birth Match ID Number Check
+	Database Record Create
+
+Dbcon.php: Located in a folder called "inc"
+	Database connection string with all the database details
